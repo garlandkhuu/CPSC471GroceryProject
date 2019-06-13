@@ -1,6 +1,6 @@
 title { 
   
-  border: 10px solid transparent;
+  border: 10px;
   padding: 15px;
-  border-image: url('/images/foodBorder.jpg') 30;
+  border-image: url("/images/foodBorder.jpg") 30;
 }
