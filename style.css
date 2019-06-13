@@ -1,7 +1,7 @@
 #borderImage { 
   
- 
-    border-width: 30px;
-    border-style: solid;
-    border-image: url(/images/foodimage.jpg) 30% round;
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(images/foodimage.jpg);  
+  border-image-slice: 30;
 }
