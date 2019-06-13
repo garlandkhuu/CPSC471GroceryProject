@@ -1,6 +1,6 @@
 .borderImage { 
   
-  border: 10px solid transparent;
+  border: 20px solid transparent;
   padding: 15px;
   border-image: url("/images/foodimage.jpg") 30;
 }
