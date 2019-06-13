@@ -55,9 +55,9 @@
 </ul>
   
 <div class = "pictureShow">
-  <img class="slideShows" img src= url(images/fresh-vegetables.jpg)>
-  <img class="slideShows" img src= url(images/fresh.jpg)>
-  <img class="slideShows" img src= url(images/veggies.jpg)>
+  <img class="slideShows" img src= url(images/fresh-vegetables.jpg) style="width:100%">
+  <img class="slideShows" img src= url(images/fresh.jpg) style="width:100%">
+  <img class="slideShows" img src= url(images/veggies.jpg) style="width:100%">
   </div>
   
   
@@ -74,7 +74,7 @@ function slideShow() {
   myIndex++;
   if (myIndex > x.length) {myIndex = 1}    
   x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); 
+  setTimeout(slideShow, 2000); 
 }
 </script>
 
