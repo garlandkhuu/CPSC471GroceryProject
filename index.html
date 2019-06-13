@@ -6,22 +6,52 @@
   #borderImage { 
   
   border: 30px solid transparent;
-  background: #b6ff67;
   padding: 30px;
   border-image-source: url(images/foodBorder.jpg);  
   border-image-slice: 20;
- 
   }
-  </style>
+    
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  }
+
+  li {
+  float: left;
+  }
+
+  li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+
+ li a:hover:not(.active) {
+ background-color: #111;
+ }
+
+
+ 
+</style>
 
   
 </head>
   
 <body>
-<h1 id="borderImage">Peasant!</h1>
-
-<h1>Welcome to Peasant's Market</h1>
-<p>Test.</p>
+<h1 id="borderImage">CC's Grocery Online Store</h1>
+<ul>
+  <li><a href="Home">Home</a></li>
+  <li><a href="Discount">Discount</a></li>
+  <li><a href="Produce">Produce</a></li>
+  <li><a href="Dairy">Dairy</a></li>
+  <li><a href="MnS">Meat & Seafood</a></li>
+  <li><a href="Snacks">Snacks</a></li>
+</ul>
 
 </body>
 </html>
