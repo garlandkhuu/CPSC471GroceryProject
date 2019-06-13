@@ -1,6 +1,8 @@
 borderImage { 
   
-  border: 20px solid transparent;
-  padding: 15px;
-  border-image: url("/images/foodimage.jpg") 30;
+    font-size:56px;
+    font-family:arial;
+    border-width: 50px;
+    border-style: solid;
+    border-image: url(/images/foodimage.jpg) 25% round;
 }
