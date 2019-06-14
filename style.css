@@ -7,12 +7,12 @@
 
 }
  .login-box {
-  width: 280px;
+  width: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: whiye;
+  color: #b6ff8f;
  }
  .login-box h1{
   float: left;
