@@ -2,7 +2,11 @@
 <html>
 <head>
  
- <script src="https://kit.fontawesome.com/8b234391c4.js"></script>
+ <script>
+ function goBack() {
+  window.history.back()
+}
+  <script src="https://kit.fontawesome.com/8b234391c4.js"></script>
  <link rel="stylesheet" href="style.css">
 <style>
  body, html {
@@ -29,10 +33,12 @@
  <div class ="textbox">
   <i class="fas fa-unlock"></i>
   <input type ="password" placeholder="Password" name="" value=""></div>
- <input class="btn" type="button" name="" value="Sign in">
- </div>
+ <input class="btn" type="button" name="" value="Sign in"></div>
+ <input class="btn" type="button" name"" value="Return home" onclick="goBack()">
+
+
  
 
-
+</script> 
 </body>
 </html>
