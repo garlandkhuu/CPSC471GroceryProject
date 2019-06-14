@@ -30,12 +30,12 @@
   margin: 8px 0;
   border-bottom: 1px solid #ff8f85;
  }
- .textbox a{
+ .textbox i{
   width: 26px;
   float: left;
   text-align: center;
  }
- .textbox b{
+ .textbox input{
   border: none;
   outline: none;
   background: none;
