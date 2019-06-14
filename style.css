@@ -12,7 +12,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: black;
+  color: white;
  }
  .login-box h1{
   float: left;
@@ -40,7 +40,7 @@
   background: none;
   color: whiye;
   font-size: 18px;
-  width: 100px;
+  width: 80px;
   float: left;
   margin 0 10px;
  }
