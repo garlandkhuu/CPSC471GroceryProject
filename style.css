@@ -54,3 +54,17 @@
   cursor: pointer;
   margin: 12px 0;
 }
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 10px;
+  cursor: pointer;
+}
+.button {border-radius: 50%;}
